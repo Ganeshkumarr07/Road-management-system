@@ -1,0 +1,68 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Dashboard styles */
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #005EB8;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Specific page styles */
+  /* .manage-complaints {
+    Styles for the Manage Public Complaints page 
+  }
+  
+  .budget-allocation {
+    /* Styles for the Budget Allocation page */
+  /* } */
+  
+  /* .update-road-details {
+    Styles for the Update Road Details page
+  }
+  
+  .allocation-road-inspector {
+    Styles for the Allocation of Road Inspector page */
+  /* } */
+   /* */ 
